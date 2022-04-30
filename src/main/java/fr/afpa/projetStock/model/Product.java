@@ -1,5 +1,9 @@
 package fr.afpa.projetStock.model;
 
+<<<<<<< HEAD
+=======
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+>>>>>>> 8dc454b (StockProject)
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -30,6 +34,10 @@ public class Product {
     private String image;
 
     @ManyToOne
+<<<<<<< HEAD
+=======
+    @JsonIgnoreProperties()
+>>>>>>> 8dc454b (StockProject)
     private Brand brand;
 
    @ManyToMany
@@ -38,6 +46,10 @@ public class Product {
                joinColumns = @JoinColumn(name="product_id"),
                inverseJoinColumns = @JoinColumn(name="supplier_id")
    )
+<<<<<<< HEAD
+=======
+   @JsonIgnoreProperties("products")
+>>>>>>> 8dc454b (StockProject)
    private List <Supplier> suppliers;
 
    @ManyToMany
@@ -46,6 +58,10 @@ public class Product {
            joinColumns = @JoinColumn(name="product_id"),
            inverseJoinColumns = @JoinColumn(name="storage_id")
    )
+<<<<<<< HEAD
+=======
+   @JsonIgnoreProperties("products")
+>>>>>>> 8dc454b (StockProject)
    private List <Storage>storages;
 
 

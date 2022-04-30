@@ -1,5 +1,9 @@
 package fr.afpa.projetStock.model;
 
+<<<<<<< HEAD
+=======
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+>>>>>>> 8dc454b (StockProject)
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -21,6 +25,10 @@ public class Brand {
     private String name;
 
     @OneToMany(mappedBy = "brand")
+<<<<<<< HEAD
+=======
+    @JsonIgnoreProperties("brand")
+>>>>>>> 8dc454b (StockProject)
     private List<Product> products;
 
 }
