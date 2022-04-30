@@ -10,12 +10,17 @@
 </head>
 <body>
     <!-- PAGE -->
+<<<<<<< HEAD
     <div class="bg-light" style="min-height: 100vh">
+=======
+    <div class="bg-light" style="min-height: 100vh" >
+>>>>>>> 8dc454b (StockProject)
         <!-- Contenu Centered -->
         <div class="d-flex flex-column justify-content-center">
             <!-- Container -->
             <div class="container my-4 bg-white rounded shadow-sm">
                 <!-- TITRE -->
+<<<<<<< HEAD
                 <div class="border-bottom p-2 mb-2 d-flex justify-content-between align-items-center">
                     <h2 class="mt-1 fw-bold fst-italic">
                         Projet STOCK
@@ -29,3 +34,31 @@
     </div>
 </body>
 </html>
+=======
+               
+                <div class="border-bottom p-2 mb-2 d-flex justify-content-between align-items-center">
+                    <h2 class="mt-1 fw-bold fst-italic" style="color: yellowgreen;">
+                        Welcome To Whole Supplier Projet STOCK
+                    </h2>  
+                </div>
+            </div>
+
+
+        </div>
+            <center><a class="btn btn-secondary" href="/ChooseProduct" style="background-color:blue ;"><h2>Choose your Supplier</h2></a></center><br>
+            
+
+
+    </div>
+</body>
+</html>
+
+
+<!--
+            <center><a class="btn btn-secondary" href="/ChooseProduct"><h2>Choose your product  brand</h2></a></center><br>
+            <center><a class="btn btn-secondary" href="/ChooseProduct"><h2>Choose your product</h2></a></center><br>
+            <center><a class="btn btn-secondary" href="/ChooseProduct"><h2>Choose your product store </h2></a></center><br>
+            <center><a class="btn btn-secondary" href="/ChooseProduct"><h2>Choose your product supplier</h2></a></center><br>
+        
+-->
+>>>>>>> 8dc454b (StockProject)
